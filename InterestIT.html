@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="About.html">About</a>
+    <div class="dropdown">
+    <button class="dropbtn">My Profile
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="PersonalInformation.html">Personal Information</a>
+      <a href="InterestIT.html">Interest in IT</a>
+      </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Ideal Job
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="SeniorSystems.html">Senior Systems Administrator</a>
+      <a href="Appealing.html">What makes this job appealing</a>
+      <a href="Required.html">Skills, qualifications and experience required</a>
+      <a href="Current.html">Current skills, qualifications and experience</a>
+      <a href="Plan.html">Future plan</a>
+      <a href="Profile.html">Personal Profile</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Project Idea
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Overview.html">Overview</a>
+      <a href="Motivation.html">Motivation</a>
+      <a href="Desription.html">Description</a>
+      <a href="Tools.html">Tools and Technologies</a>
+      <a href="Skills.html">Skills required</a>
+      <a href="Outcome.html">Outcome</a>
+    </div>
+  </div>
+    <a href="References.html">References</a>
+  </div>
+</div>
+
+<h3>INTEREST IN INFORMATION TECHNOLOGY</h3>
+<p>I was inspired to enrol in the Bachelor of Information Technology whilst studying Engineering.
+  Some of the engineering software we used to build and analyse structures were Autocad, Space Gass, Revit, Solidworks, and Civil 3D.
+  During the degree we had to have some basic programming knowledge to develop and run different scenarios.  I was amazed what the engineering
+  software could achieve in seconds, compared to human calculations.</p>
+<p>I chose RMIT because it is a well-recognised university with employer reputation (8th in Australia) and a world leader in teaching information systems.
+  Growing up in regional Victoria, I was a regular visitor to Melbourne and always remember walking down La Trobe St passing the students coming and going from
+  the building, I would always admire them and think how smart they must be going to University.</p>
+<p>I expect to learn as much as possible about information technology, I know little and want to expand on my knowledge.  I expect to learn about software programming,
+  computer hardware and how these interact with the community.  At the end of this Bachelor degree, I hope to be competent enough in computers to enrol in the Bachelor of
+  Software Engineering.</p>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
+  </head>
+  <body>
+
+  <div class="row">
+    <div class="column">
+      <img src="Solidworks.png" alt="Solidworks" style="width:60%">
+    </div>
+    <div class="column">
+      <img src="SpaceGass.png" alt="SpaceGass" style="width:60%">
+    </div>
+    <div class="column">
+      <img src="Civil3D.png" alt="Civil3D" style="width:60%">
+    </div>
+  </div>
+</body>
+</html>
